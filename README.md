@@ -1,5 +1,8 @@
 # Spotify Popularity Analysis
-An exploratory data analysis of Spotify's Top Hits from 2000-2019 examining what audio and artist attributes correlate with song popularity. Built with: Python, Pandas, Seaborn, Jupyter Notebook. 
+An exploratory data analysis of Spotify's Top Hits from 2000-2019 examining what audio and artist attributes correlate with song popularity.
+
+# Tech Stack
+Python, Pandas, Seaborn, Jupyter Notebook. 
 
 # Dataset
 Top Hits Spotify 2000-2019 by Mark Koverha via Kaggle
@@ -15,3 +18,10 @@ What makes a song popular on Spotify?
 
 # Findings
 The strongest correlation with popularity was artist frequency. It felt like a bit of a no-brainer that popular artists tend to produce popular songs, though it's not guaranteed. Interestingly, the most common musical key and the most popular key were different.
+
+# How to Run Locally
+``` bash
+git clone https://github.com/tigosun-dev/spotifyAnalysis2024.git
+cd spotifyAnalysis2024
+pip install jupyter pandas seaborn
+jupyter notebook
