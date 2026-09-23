@@ -21,7 +21,7 @@ The strongest correlation with popularity was artist frequency. It felt like a b
 
 # How to Run Locally
 ``` bash
-git clone https://github.com/tigosun-dev/spotifyAnalysis2024.git
+git clone https://github.com/canistag/spotifyAnalysis2024.git
 cd spotifyAnalysis2024
 pip install jupyter pandas seaborn
 jupyter notebook
